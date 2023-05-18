@@ -18,6 +18,7 @@
 			<input type="email" id="email" placeholder="Enter Email" required>
 		</div>
 		<div>
+			<label for="gender">Gender :</label>
 			<label for="male">Male*</label>
 			<input type="radio" id="male" name="gender">
 
@@ -28,14 +29,12 @@
 			<input type="radio" id="others" name="gender">
 		</div>
 		<div>
-			<label for="apple">Apple</label>
-			<input type="radio" id="laptop" name="brands">
-
-			<label for="asus">Asus</label>
-			<input type="radio" id="laptop" name="brands">
-
-			<label for="hp">Hp</label>
-			<input type="radio" id="laptop" name="brands">
+			<label for="laptop brands">Laptop Brands :</label>
+			<select name="brands" id="brands">
+				<option value="apple">Apple</option>
+				<option value="asus">Asus</option>
+				<option value="hp">HP</option>
+			</select>
 		</div>
 		<div>
 			<label for="age">Age*</label>
