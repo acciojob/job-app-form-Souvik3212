@@ -9,51 +9,56 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		<div>
-			<label for="name">Name</label>
-			<input type="text" id="name" placeholder="Enter Name" name="Username" required>
-		</div>
-		<div>
-			<label for="email">Email</label>
-			<input type="email" id="email" placeholder="Enter Email" required>
-		</div>
-		<div>
-			<label for="gender">Gender :</label>
-			<label for="male">Male</label>
-			<input type="radio" id="male" name="gender" required>
+<div>
+    <label for="name">Name*</label>
+    <input type="text" id="name" required>
+</div>
+<div>
+    <label for="email">Email*</label>
+    <input type="email" id="email"required>
+</div>
+<div>
+    <label>Gender*:</label>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender"required>
 
-			<label for="female">Female</label>
-			<input type="radio" id="female" name="gender" required>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"required>
 
-			<label for="others">Others</label>
-			<input type="radio" id="others" name="gender" required>
-		</div>
-		<div>
-			<label for="laptop">Laptop Brands :</label>
-			<select name="laptop">
-				<option value="apple">Apple</option>
-				<option value="asus">Asus</option>
-				<option value="hp">HP</option>
-			</select>
-		</div>
-		<div>
-			<label for="age">Age</label>
-			<input type="number" id="age" placeholder="Enter Age" required>
-		</div>
-		<div>
-			<label for="dob">Date of Birth</label>
-			<input type="date" id="dob" placeholder="Enter DOB" required>
-		</div>
-		<div>
-			<label for="password">Password</label>
-			<input type="password" id="password" placeholder="Enter Password" required>
-		</div>
-		<div>
-			<label for="portfolio"></label>
-		    <input type="url" name="portfolio" id="portfolio" placeholder="website url"required>
-		</div>
-		<input type="submit" value="Submit">
-	</form>
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender"required>
+
+</div>
+<div>
+Select Laptop Brands: <br>
+	<label for="apple">Apple</label>
+	<input type="checkbox" id="laptop"  >
+	<label for="asus">Asus</label>
+	<input type="checkbox" id="laptop"  >
+	<label for="hp">HP</label>
+	<input type="checkbox" id="laptop" >
+
+</div>
+<div>
+    <label for="age">Age*</lable>
+    <input type="number" id="age"required>
+</div>
+<div>
+    <label for="dob">DOB*</label>
+    <input type="date" id="dob"required>
+</div>
+<div>
+    <label for="password">Password*</label>
+    <input type="password" id="password"required>
+</div>
+<div>
+    <button type="submit">Submit</button>
+</div>
+<div>
+    <input type="url" placeholder="portfolio url" id="portfolio" required>
+</div>
+
+</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
